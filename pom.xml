@@ -23,11 +23,9 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.12.1</version> 
 <configuration>
-            <suiteXmlFiles>
-<suiteXmlFile>testng.xml</suiteXmlFile>
-</suiteXmlFiles>
-          </configuration>
-
+    <source>21</source>
+    <target>21</target>
+</configuration>
         </plugin>
       </plugins>
     </pluginManagement>
